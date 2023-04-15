@@ -25,6 +25,9 @@
     .mx-h-700{
         max-height: 700px;
     }
+    .container-home-img{
+        background-image: url("../../public/image/ir.png");
+    } 
 }
 
 @layer base{
@@ -62,10 +65,11 @@
         width: 64px height: 64px
     }
     .product-list{
-        @apply border text-center hover:border-luster-1 rounded-lg smallphone:w-20 smallphone:h-14 sm:w-60 sm:h-10
+        @apply border text-center hover:border-luster2-3 rounded-lg smallphone:w-20 smallphone:h-14 sm:w-60 sm:h-10
     }
     .header-btn{
-        @apply text-center bg-luster-1 text-white align-middle border-2 shadow-xl
+        @apply text-center bg-luster2-3
+        text-white align-middle border-2 shadow-xl
     }
     .about-img{
         @apply
@@ -75,6 +79,7 @@
         @apply
         container mx-auto h-[900px] font-vazir text-base text-justify
     }
+
     .small-menu-item{
         @apply
         lg:grid lg:grid-cols-3 gap-2 md:grid md:grid-cols-2

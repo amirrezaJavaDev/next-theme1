@@ -13,8 +13,8 @@ const Header = () =>{
         setHumbergerMenuExpand(!humbergerMenuExpand);
     }
     return (
-         <header className=" bg-luster-1 shadow-lg mb-10">
-           <div className='container  mx-auto py-2 px-10'>
+         <header className=" bg-luster2-3 shadow-lg mb-10">
+           <div className='container  mx-auto px-10'>
                 <div className='flex justify-between items-center'>
                     <div className='hidden md:flex items-center'>
                       <div className="mr-7">
@@ -26,16 +26,17 @@ const Header = () =>{
                                       <ul className="space-y-3">
                                           <li className="nav-item"> <Link href={"#"}> شعمدانی</Link></li>
                                           <li className="nav-item"> <Link href={"#"}>لوستر اداری</Link></li>
-                                          <li className="nav-item"><Link href={"#"}>لوستر مرکزی</Link></li>
+                                          <li className="nav-item"><Link href={"#"}>لوستر شمعدان</Link></li>
                                           <li className="nav-item"><Link href={"#"}>آینه و لوستر</Link></li>
+                                          <li className="nav-item"><Link href={"#"}>لوستر دیواری</Link></li>
+                                          <li className="nav-item"><Link href={"#"}>ساعت شمعدان</Link></li>
                                       </ul>
                                   </div> :
                                   <></>
                               }
 
                           </li>
-                          <li className="nav-item"><Link href={"#"}>تماس با ما</Link></li>
-                          <li className="nav-item"><Link href={"/about"}>درباره ما</Link></li>
+                          <li className="nav-item"><Link href={"/about"}>تماس با ما</Link></li>
                         </ul>
                       </div>
                     </div>
@@ -54,8 +55,7 @@ const Header = () =>{
                                         <ul className="flex flex-col gap-7 font-vazir">
                                             <li><Link href={"/"}>صفحه اصلی</Link></li>
                                             <li><Link href={"#"}>محصولات</Link></li>
-                                            <li><Link href={"#"}>تماس با ما</Link></li>
-                                            <li><Link href={"/about"}>درباره ما</Link></li>
+                                            <li><Link href={"/about"}>تماس با ما</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -63,12 +63,8 @@ const Header = () =>{
                             :<></>
                         }
                     </div>
-
-
-
-
                     <div>
-                      <img src="/image/8.jpg" className="h-24 mix-blend-multiply"/>
+                      <img src="/image/6-1.png" className="ml-0  lg:ml-[670px] h-20 rounded-full"/>
                     </div>
                 </div>
            </div>
